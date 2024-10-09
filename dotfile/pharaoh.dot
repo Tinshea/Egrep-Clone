@@ -1,0 +1,16 @@
+digraph NFA {
+    13 [shape=doublecircle];
+    0 -> 1 [label="P"];
+    1 -> 2 [label="ε"];
+    2 -> 3 [label="h"];
+    3 -> 4 [label="ε"];
+    4 -> 5 [label="a"];
+    5 -> 6 [label="ε"];
+    6 -> 7 [label="r"];
+    7 -> 8 [label="ε"];
+    8 -> 9 [label="a"];
+    9 -> 10 [label="ε"];
+    10 -> 11 [label="o"];
+    11 -> 12 [label="ε"];
+    12 -> 13 [label="h"];
+}
